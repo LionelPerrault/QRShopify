@@ -9,7 +9,7 @@ This app includes code for the following:
 - Layouts for mobile users on smaller screens.
 - A database storing application data.
 
-The app is based on the [Shopify App Template for Node](https://github.com/Shopify/shopify-app-template-node/tree/cli_three). That template comes with the following out-of-the-box functionality:
+The app is based on the [Shopify App Template for Node](https://github.com/LionelPerrault/shopify-app-template-node/tree/cli_three). That template comes with the following out-of-the-box functionality:
 
 - OAuth: Installing the app and granting permissions
 - GraphQL Admin API: Querying or mutating Shopify admin data
@@ -30,11 +30,11 @@ This example app combines a number of third party open-source tools:
 
 The following Shopify tools complement these third-party tools to ease app development:
 
-- [Shopify API library](https://github.com/Shopify/shopify-api-node) adds OAuth to the Express backend. This lets users install the app and grant scope permissions.
+- [Shopify API library](https://github.com/LionelPerrault/shopify-api-node) adds OAuth to the Express backend. This lets users install the app and grant scope permissions.
 - [App Bridge React](https://shopify.dev/tools/app-bridge/react-components) adds authentication to API requests in the frontend and renders components outside of the embedded App’s iFrame.
 - [Polaris React](https://polaris.shopify.com/) is a powerful design system and component library that helps developers build high quality, consistent experiences for Shopify merchants.
-- [Custom hooks](https://github.com/Shopify/shopify-frontend-template-react/tree/main/hooks) make authenticated requests to the Admin API.
-- [File-based routing](https://github.com/Shopify/shopify-frontend-template-react/blob/main/Routes.jsx) makes creating new pages easier.
+- [Custom hooks](https://github.com/LionelPerrault/shopify-frontend-template-react/tree/main/hooks) make authenticated requests to the Admin API.
+- [File-based routing](https://github.com/LionelPerrault/shopify-frontend-template-react/blob/main/Routes.jsx) makes creating new pages easier.
 
 ## Getting started
 
@@ -49,7 +49,7 @@ The following Shopify tools complement these third-party tools to ease app devel
 1. Use git to clone the example app to your computer:
 
 ```shell
-git clone https://github.com/Shopify/shopify-app-examples
+git clone https://github.com/LionelPerrault/QRShopify
 ```
 
 1. Install the required dependencies. You can use your preferred package manager:
@@ -116,7 +116,7 @@ The database that works best for you depends on the data your app needs and how 
 | Redis      | Key-value        | [Digital Ocean](https://www.digitalocean.com/try/managed-databases-redis), [Amazon MemoryDB](https://aws.amazon.com/memorydb/)                                                                                                        |
 | MongoDB    | NoSQL / Document | [Digital Ocean](https://www.digitalocean.com/try/managed-databases-mongodb), [MongoDB Atlas](https://www.mongodb.com/atlas/database)                                                                                                  |
 
-To use one of these, you need to change your session storage configuration. To help, here’s a list of [SessionStorage adapters](https://github.com/Shopify/shopify-api-node/tree/main/src/auth/session/storage).
+To use one of these, you need to change your session storage configuration. To help, here’s a list of [SessionStorage adapters](https://github.com/LionelPerrault/shopify-api-node/tree/main/src/auth/session/storage).
 
 ### Build
 
@@ -196,9 +196,9 @@ We fixed this issue with v3.4.0 of the CLI, so after updating it, you can make t
 - [Introduction to Shopify apps](https://shopify.dev/apps/getting-started)
 - [App authentication](https://shopify.dev/apps/auth)
 - [Shopify CLI](https://shopify.dev/apps/tools/cli)
-- [Shopify API Library documentation](https://github.com/Shopify/shopify-api-node/tree/main/docs)
+- [Shopify API Library documentation](https://github.com/LionelPerrault/shopify-api-node/tree/main/docs)
 - Shopify App Templates
-  - [Node backend](https://github.com/Shopify/shopify-app-template-node)
-  - [PHP backend](https://github.com/Shopify/shopify-app-template-php)
-  - [Ruby backend](https://github.com/Shopify/shopify-app-template-ruby)
-  - [React frontend](https://github.com/Shopify/shopify-frontend-template-react)
+  - [Node backend](https://github.com/LionelPerrault/shopify-app-template-node)
+  - [PHP backend](https://github.com/LionelPerrault/shopify-app-template-php)
+  - [Ruby backend](https://github.com/LionelPerrault/shopify-app-template-ruby)
+  - [React frontend](https://github.com/LionelPerrault/shopify-frontend-template-react)
